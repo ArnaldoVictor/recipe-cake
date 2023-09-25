@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(./assets/bg.png) no-repeat center/cover;
+  font-size: 1.6rem;
+  font-family: "Source Serif Pro", sans-serif;
+  min-height: 100vh;
+  color: #a54328;
+  padding: 5.4rem 3.7rem;
+}
+
+main {
+  margin: auto;
+  max-width: 32rem;
+  box-sizing: content-box;
+}
+
+img {
+  width: 100%;
+  margin: 4.67rem 0;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.prepare h5,
+button {
+  margin-top: 2rem;
+}
+
+li,
+p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Source Serif 4", serif;
+  border-radius: 5.6px;
+  background: #a54328;
+  padding: 1.13rem;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+button:hover {
+  background: #80341f;
+}
+
+.prepare-wrapper {
+  margin-top: 3.4rem;
+}
+
+.prepare-wrapper h1 {
+  margin-bottom: 3.6rem;
+}
+
+ul,
+ol {
+  margin-left: 2.3rem;
+}
+
+/* media queries */
+@media (min-width: 1120px) {
+  main {
+    max-width: fit-content;
+    display: flex;
+    gap: 16rem;
+  }
+
+  li,
+  p,
+  h5 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .recipe-wrapper {
+    max-width: 44rem;
+  }
+
+  .prepare-wrapper {
+    margin: 0;
+    max-width: 52.5rem;
+  }
+
+  img {
+    height: 24rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+    padding: 1.6rem;
+  }
+}
